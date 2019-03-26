@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=FrogSimulation
+comment1.params=dist\ numHops
+comment1.target=FrogSimulation(int,\ int)
+comment1.text=Precondition\:\ dist\ >\ 0;\ numHops\ >0
+comment2.params=
+comment2.target=int\ hopDistance()
+comment2.text=\ Returns\ an\ integer\ representing\ the\ distance,\ in\ inches,\ to\ be\ move\r\n\ when\ the\ frog\ hops.\ \r\n
+comment3.params=
+comment3.target=boolean\ simulate()
+comment3.text=\ Simulates\ a\ frog\ attempting\ to\ reach\ the\ goal\ as\ described\ in\r\n\ part\ (a).\ Returns\ true\ if\ the\ frog\ successfully\ reached\ or\ passed\ \r\n\ the\ goal\ during\ the\ simulation;\ false\ otherwise\r\n
+comment4.params=num
+comment4.target=double\ runSimulations(int)
+comment4.text=\ Runs\ num\ simulations\ and\ returns\ the\ proportion\ of\ simulations\r\n\ in\ which\ the\ frog\ successfully\ reached\ or\ passed\ the\ goal\r\n\ Precondition\:\ num\ >\ 0\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
