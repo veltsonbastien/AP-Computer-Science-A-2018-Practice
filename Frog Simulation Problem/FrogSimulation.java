@@ -46,7 +46,7 @@ public class FrogSimulation
      frogPosition+= this.hopDistance(); 
      //System.out.println("Current Position: "+frogPosition); 
      testArray.remove(0); 
-     if(frogPosition == goalDistance){
+     if(frogPosition >= goalDistance){
         //System.out.println("Reached the Goal!"); 
         return true;   
       }
