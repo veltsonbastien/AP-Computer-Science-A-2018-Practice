@@ -70,13 +70,17 @@ public class ArrayTester{
            for(int j = 0; j<square[i].length; j++){
                if(hasAllValues(square[0], getColumn(square,j))){
                   checkCols = true;   
+                } else{
+                 return false;    
                 }
             }
          }
          for(int k = 1; k<square.length; k++){
           if(hasAllValues(square[0],square[k])){
               checkRows = true; 
-           }
+           } else{
+             return false;   
+            }
         }
        }
    
@@ -93,11 +97,11 @@ public class ArrayTester{
        int[] result = ArrayTester.getColumn(arr2D, 1);  
        
        int[][] arrLatin = { {1,2,3},
-                            {3,2,1},
-                            {2,1,3} };
+                            {2,3,1},
+                            {3,1,2} };
                             
-       int[][] arrNotLatin = { {1,2,1},
-                               {2,1,1},
+       int[][] arrNotLatin = { {3,2,1},
+                               {2,3,1},
                                {1,1,2} };
                                
        if(ArrayTester.isLatin(arrLatin))System.out.println("arrLatin is shown as a latin, test passed"); 
